@@ -1,0 +1,11 @@
+.timerLeft {
+    background-color: rgba(166, 255, 0, 0.404);
+}
+.quiz {
+    border: 10px solid rgb(123,33,124,0.25);
+    padding: 20px 40px;
+} 
+.questioncard {
+    padding: 5px;
+    font-size: 20px;
+}
