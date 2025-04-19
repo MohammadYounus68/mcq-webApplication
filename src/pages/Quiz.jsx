@@ -6,7 +6,7 @@ import './Quiz.css';
 function Quiz({ onFinish }) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [, setAnswers] = useState([]); // ✅ শুধু state আপডেট করার জন্য
-  const [timeLeft, setTimeLeft] = useState(300); // ⏱️ সময়
+  const [timeLeft, setTimeLeft] = useState(1800); // ⏱️ সময়
   const answersRef = useRef([]); // ✅ উত্তর সংরক্ষণের জন্য
 
   const handleAnswer = (selectedIndex) => {
